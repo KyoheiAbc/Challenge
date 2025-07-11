@@ -27,6 +27,7 @@ projection = 1
 size = 20.0
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Node3D"]
+light_energy = 0.3
 shadow_enabled = true
 
 [node name="RigidBody3D2" parent="." instance=ExtResource("2_j2q8x")]
