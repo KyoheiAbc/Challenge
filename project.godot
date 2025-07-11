@@ -14,6 +14,20 @@ config/name="Challenge"
 run/main_scene="uid://bv8qx472gy4p3"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
+[display]
+
+window/size/viewport_width=300
+window/size/viewport_height=150
+window/size/resizable=false
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+window/size/window_width_override=2000
+window/size/window_height_override=1000
+
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
