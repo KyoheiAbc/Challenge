@@ -19,10 +19,15 @@ config/features=PackedStringArray("4.4", "GL Compatibility")
 window/size/viewport_width=300
 window/size/viewport_height=150
 window/size/resizable=false
-window/stretch/mode="viewport"
-window/stretch/scale_mode="integer"
 window/size/window_width_override=2000
 window/size/window_height_override=1000
+window/stretch/mode="viewport"
+window/stretch/scale_mode="integer"
+window/size/width=1920
+
+[global_group]
+
+Mob=""
 
 [input_devices]
 

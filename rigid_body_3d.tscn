@@ -5,7 +5,7 @@
 [sub_resource type="BoxShape3D" id="BoxShape3D_sy5k4"]
 size = Vector3(1, 2, 1)
 
-[node name="RigidBody3D" type="RigidBody3D"]
+[node name="RigidBody3D" type="RigidBody3D" groups=["Mob"]]
 
 [node name="blockbench_export" parent="." instance=ExtResource("1_mvxmr")]
 
